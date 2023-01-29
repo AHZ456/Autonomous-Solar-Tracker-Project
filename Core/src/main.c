@@ -24,9 +24,9 @@
 /* USER CODE BEGIN Includes */
 #include <string.h>
 #include <stdio.h>
-#include "/home/zinou/holder.h"
-#include "/home/zinou/holder.c"
-#include "/home/zinou/i2c-lcd.h"
+#include "holder.h"
+#include "holder.c"
+#include "i2c-lcd.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
