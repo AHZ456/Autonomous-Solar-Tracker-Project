@@ -1,5 +1,3 @@
 # Solar-Tracker-Project
 
-Powered by the STM32F103C8 board, this solar tracker uses an RTC clock to periodically shutdown once it has attained an optimal 
-angle (panel perpendicular to sun rays). A calendar has been implemented using The microcontroller's RTC which allows it to deduce the proper sleep 
-duration in order to trigger the wake up event at sunrise depending on the season.
+Powered by the STM32F103C8 board, this solar tracker uses an RTC clock to periodically initiate a shutdown event in which the motors which are responsible for orienting the panel are turned off, and the microcontroller is put in sleep mode. This shutdown event contributes in increasing the tracker’s energy efficiency through saving power after the panel has reached an optimal angle with regards to its exposition to sun rays. A calendar has been implemented using the microcontroller's RTC clock which allows it to deduce the proper sleep duration for the season. This design choice enables a wake up event at sunrise for all seasons.
